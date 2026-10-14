@@ -49,7 +49,7 @@ const tinderUser = {
  tinderUser.name = "Anil"
  tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 const regularUser = {
     email: "some@gmail.com",
@@ -73,7 +73,7 @@ const obj4 = {5: "r", 6: "s"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 const obj3 = {...obj1, ...obj2, ...obj4}
-console.log(obj3);
+// console.log(obj3);
 
 const users = [
     {
@@ -91,13 +91,45 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // property xa ki chainaa bhane raa check garnaa pani milxa
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // property xa ki chainaa bhane raa check garnaa pani milxa
+
+
+
+
+
+//// Objects destructuring and JSON API //////////
+
+
+const course = {
+    coursename: "Js in hindi",
+    price: 9999,
+    courseInstructor: "Anil"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+// {
+//     "name": "Anil",
+//     "coursename": "js in Hindi",
+//     "price": "free"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
