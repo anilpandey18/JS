@@ -131,3 +131,134 @@ const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
 
 
+
+
+//  // JavaScript Control Flow Practice
+
+// // 1. If-Else Statement
+// const studentMarks = 76;
+
+// if (studentMarks >= 80) {
+//     console.log("Grade: A");
+// } else if (studentMarks >= 60) {
+//     console.log("Grade: B");
+// } else if (studentMarks >= 40) {
+//     console.log("Grade: C");
+// } else {
+//     console.log("You failed");
+// }
+
+// // 2. Logical Operators
+// const isLoggedIn = true;
+// const hasMembership = true;
+
+// if (isLoggedIn && hasMembership) {
+//     console.log("Premium access granted");
+// } else {
+//     console.log("Access denied");
+// }
+
+// // 3. OR Operator
+// const loginWithEmail = false;
+// const loginWithGoogle = true;
+
+// if (loginWithEmail || loginWithGoogle) {
+//     console.log("Login successful");
+// } else {
+//     console.log("Please log in");
+// }
+
+// // 4. Switch Case
+// const dayNumber = 5;
+
+// switch (dayNumber) {
+//     case 1:
+//         console.log("Sunday");
+//         break;
+//     case 2:
+//         console.log("Monday");
+//         break;
+//     case 3:
+//         console.log("Tuesday");
+//         break;
+//     case 4:
+//         console.log("Wednesday");
+//         break;
+//     case 5:
+//         console.log("Thursday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
+
+// // 5. Truthy and Falsy Values
+// const username = "";
+
+// if (username) {
+//     console.log("Username is available");
+// } else {
+//     console.log("Username is empty");
+// }
+
+// // 6. Check Empty Array
+// const cartItems = [];
+
+// if (cartItems.length === 0) {
+//     console.log("Your cart is empty");
+// } else {
+//     console.log("Items found in cart");
+// }
+
+// // 7. Check Empty Object
+// const student = {};
+
+// if (Object.keys(student).length === 0) {
+//     console.log("Student object is empty");
+// } else {
+//     console.log("Student data found");
+// }
+
+// // 8. Nullish Coalescing Operator
+// const userAge = null;
+// const finalAge = userAge ?? 18;
+
+// console.log("User age:", finalAge);
+
+// // 9. Ternary Operator
+// const productPrice = 150;
+
+// productPrice <= 100
+//     ? console.log("Affordable product")
+//     : console.log("Expensive product");
+
+// // 10. Nested If Statement
+// const accountBalance = 2000;
+// const withdrawalAmount = 500;
+// const pinCorrect = true;
+
+// if (pinCorrect) {
+//     if (withdrawalAmount <= accountBalance) {
+//         console.log("Withdrawal successful");
+//     } else {
+//         console.log("Insufficient balance");
+//     }
+// } else {
+//     console.log("Incorrect PIN");
+// }
+
+// // 11. Check Even or Odd
+// const number = 17;
+
+// if (number % 2 === 0) {
+//     console.log("Even number");
+// } else {
+//     console.log("Odd number");
+// }
+
+// // 12. Optional Default Value
+// const displayName = undefined;
+// const nameToShow = displayName ?? "Guest";
+
+// console.log(`Welcome, ${nameToShow}!`);
+
+
